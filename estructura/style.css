@@ -98,10 +98,10 @@ p {
 
 #feature {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-image: url("img/img6.JPG");
+    background-image: url("img/feature.JPG");
     height: 90vh;
     width: 100%;
     background-size: cover;
@@ -115,14 +115,14 @@ p {
     width: 180px;
     text-align: center;
     padding: 20px 15px;
-    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    box-shadow: 15px 20px 34px rgba(0, 0, 0, 0.03);
     border: 1px solid #cce7d0;
     border-radius: 4px;
     margin: 15px 0;
 }
 
 #feature .fe-box:hover {
-    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+    box-shadow: 5px 9px 52px rgba(70, 62, 221, 0.1);
 }
 
 #feature .fe-box img {
