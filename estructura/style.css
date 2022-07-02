@@ -7,6 +7,10 @@
     font-family: 'Spartan', sans-serif;
 }
 
+.contenedor {
+    padding: 60px 0;
+}
+
 h1 {
     font-size: 50px;
     line-height: 64px;
@@ -69,7 +73,7 @@ p {
 }
 
 #hero h4 span {
-    font-size: 0.4rem;
+    font-size: 0.5rem;
 }
 
 #hero h1 {
@@ -160,6 +164,41 @@ p {
     background-color: #E3E6F3;
 }
 
+.bg_color {
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    top: 0;
+}
+
+.wave {
+    width: 6000px;
+    height: 85%;
+    position: absolute;
+    top: 145px;
+    background-image: url(img/wave-haikei.svg);
+    background-position: bottom;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.w1 {
+    animation: w1 9s linear -.140s infinite;
+    opacity: 1;
+}
+
+@keyframes w1 {
+    0% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: -1600px;
+    }
+}
+
 #banner {
     display: flex;
     flex-direction: column;
@@ -196,7 +235,7 @@ p {
 #newsletter h4 {
     font-size: 22px;
     font-weight: 700;
-    color: #fff;
+    color: black;
 }
 
 #newsletter p {
@@ -384,16 +423,6 @@ footer .copyright {
         min-width: 100%;
         height: 30vh;
     }
-}
-
-
-
-.section-p1 {
-    padding: 40px 80px;
-}
-
-.section-m1 {
-    margin: 40px 0;
 }
 
 #button .white {
